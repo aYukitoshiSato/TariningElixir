@@ -3,6 +3,6 @@ defmodule TrainingElixirTest do
   doctest TrainingElixir
 
   test "greets the world" do
-    assert TrainingElixir.hello() == :goodbye
+    assert TrainingElixir.hello() == :world
   end
 end

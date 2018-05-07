@@ -15,4 +15,12 @@ defmodule TrainingElixir do
   def hello do
     :world
   end
+
+  def main(_) do
+    IO.puts("IOputTEST")
+    Path.expand("~/.config/hipchat_cli/token")
+    |> File.read!()
+    |> String.trim()
+    |> IO.puts()
+  end
 end
